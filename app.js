@@ -11,7 +11,7 @@ client.music.start(client, {
   defVolume: "12",
   anyoneCanSkip:true,
   clearInvoker:true,
-  djRole:["Member","Admin","Officer"],
+  djRole:["Member","Admin","Officer","BOT"],
   disableLoop: false,
   leaveCmd: 'bye',
   ownerOverMember: true,
