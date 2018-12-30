@@ -36,7 +36,7 @@ client.on('msg', msg =>
 
 // purge and nuke
     client.on('message', message => {
-      if (message.member.roles.find(role => role.name === 'ADMIN')){
+      if (message.member.roles.find(role => role.name === 'BOT')){
           if(message.content =='/purge 5'){
             message.channel.bulkDelete(6);}
             if(message.content =='/purge 10'){
